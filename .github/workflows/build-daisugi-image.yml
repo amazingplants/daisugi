@@ -34,4 +34,4 @@ jobs:
             linux/amd64
           push: true
           tags: |
-            ghcr.io/amazingplants/activepieces:${{ env.RELEASE }}.${{ inputs.MY_VERSION }}
+            ghcr.io/amazingplants/daisugi:${{ env.RELEASE }}.${{ inputs.MY_VERSION }}
